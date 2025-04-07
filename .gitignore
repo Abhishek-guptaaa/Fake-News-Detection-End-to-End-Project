@@ -173,5 +173,8 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-#  ignoring the data folder
+# Ignore all CSV files inside data/ folder
 data/*.csv
+
+# BUT keep the data/ folder itself
+!data/.gitkeep
